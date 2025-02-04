@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    --sizeCont: 320px;
+    width: var(--sizeCont);
+    height:var(--sizeCont);
+}
+
+.square {
+    height: 20px;
+    width:20px;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+}
+
+
+
